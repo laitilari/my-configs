@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": true,
+    "json": true,
+    "javascript": true,
+    "html": true,
+    "javascriptreact": true,
+    "scss": true,
+    "css": true,
+    "@scm/commit": true // pseudo language id used for scm input
+  },
+  "[json, html, css, scss, js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.useEditorConfig": false
+}
